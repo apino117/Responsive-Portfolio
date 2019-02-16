@@ -320,10 +320,76 @@ img {
 
 
 @media screen and (max-width: 640px) {
-    #copyright {
-        background: rgb(255, 49, 84);}
+    
+    /* Nav Links */
     .nav-wrapper {
-        position: static;
-
+        border: 0;
+        border-bottom: solid #cccccc 3px;
+        width: 683px;
     }
+    .nav-title {
+        width: 100%;
+        margin: 0;
+        left: -75px;
+    }
+    .nav-links {
+        top: 29px;
+        position: relative;
+        margin-top: 31px;
+        margin-right: 186px;
+    }
+    .main-wrapper {
+        width: 600px;
+        height: 400px;
+        margin: left;
+        padding: 7px;
+        margin: auto;
+        margin-top: 185px;
+    }
+
+    /* Contact Page Specific */
+    #contact-wrapper {
+        padding: 20px;
+        width: 550px;
+    }
+    textarea {
+        height: 2em;
+        width: 49em;
+    }
+
+    #messagearea {
+        height: 10em;
+        width: 49em;
+    }
+    
+    /* Portfolio-Specific */
+
+
+    #portfolio-wrapper {
+        height: 585px;
+        width: 500px;
+    }
+    .centerbottom {
+        position: relative;
+        right: 0px;
+        bottom: 62px;
+        width: 88%;
+    }
+    .container {
+        margin: 0;
+        text-align: left;
+    }
+    .portpic {
+        width: 100%;
+    }
+    .column {
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-bottom: -4%;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
 }
