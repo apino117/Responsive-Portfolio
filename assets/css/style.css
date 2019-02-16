@@ -236,8 +236,84 @@ img {
 /* 768 */
 
 @media screen and (max-width: 768px) {
-    #copyright {
-        background: rgb(245, 104, 127);}
+        /* Nav Bar */
+
+    .nav-title {
+        margin: 0;
+        left: 20px;
+    }
+    .nav-links {
+        margin-right: 5%;
+    }
+    .nav-wrapper {
+        border: solid #cccccc 3px;
+        width: 683px;
+    }
+
+    /* Main Content */
+
+    .main-wrapper {
+        width: 700px;
+        height: 400px;
+        margin: left;
+        padding: 7px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    p {
+        font-size: 8px;
+    }
+
+    /* Portfolio-Specific */
+
+
+    #portfolio-wrapper {
+        height: 665px;
+        width: 600px;
+    }
+    .centerbottom {
+        position: relative;
+        right: 0px;
+        bottom: 62px;
+        width: 89%;
+    }
+    .container {
+        margin: 0;
+        text-align: left;
+    }
+    .portpic {
+        width: 100%;
+    }
+    .column {
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-bottom: -4%;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    /* Contact Page Specific*/
+
+    #contact-wrapper {
+        padding: 20px;
+    }
+
+    textarea {
+        height: 2em;
+        width: 63em;
+    }
+
+    #messagearea {
+        height: 10em;
+        width: 63em;
+    }
+    #submitbtn {
+        position: relative;
+        bottom: 15px;
+    }
 }
 
 /* 640 */
